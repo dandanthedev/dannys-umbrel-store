@@ -21,7 +21,7 @@ services:
       - ${APP_DATA_DIR}/data:/app/data
     environment:
       - ENCRYPTION_KEY=${APP_POCKETID_SECRET}
-      - APP_URL=https://${DEVICE_DOMAIN_NAME}:1411
+      - APP_URL=${APP_URL}
       - TRUST_PROXY=true
       - PUID=1000
       - PGID=1000
