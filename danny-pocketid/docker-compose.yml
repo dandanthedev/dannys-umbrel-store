@@ -4,7 +4,7 @@ services:
   app_proxy:
     environment:
       # The format here is: <app-id>_<docker-service-name>_1
-      APP_HOST: pocketid_pocketid_1
+      APP_HOST: danny-pocketid_pocketid_1
       APP_PORT: 1411
 
   pocketid:
