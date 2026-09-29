@@ -6,6 +6,7 @@ services:
       # The format here is: <app-id>_<docker-service-name>_1
       APP_HOST: danny-pocketid_pocketid_1
       APP_PORT: 1411
+      PROXY_AUTH_ADD: "false"
 
   pocketid:
     image: pocketid/pocket-id:v2
