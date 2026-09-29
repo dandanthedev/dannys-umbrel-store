@@ -1,0 +1,1 @@
+export APP_POCKETID_SECRET="$(openssl rand -base64 32)"

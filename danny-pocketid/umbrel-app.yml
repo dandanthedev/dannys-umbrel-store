@@ -4,7 +4,7 @@ name: Pocket ID
 tagline: The most user-friendly OpenID Connect Certified™ and OAuth 2.0 provider that lets users sign in to your applications with passkeys.
 icon: https://github.com/user-attachments/assets/d906ac59-9269-4aa0-8c0d-e9619d0de04c
 category: networking
-version: "1.0.0"
+version: "1.0.1"
 port: 1411
 description: >-
   Pocket ID is a simple OIDC provider that allows users to authenticate with their passkeys to your services.
@@ -25,7 +25,7 @@ gallery:
   - https://pocket-id.org/img/landing/registration_screenshot.webp
   - https://pocket-id.org/img/landing/group_restriction_screenshot.webp
 releaseNotes: >-
-  First release :D
+  Added envs
 dependencies: []
 path: ""
 defaultUsername: ""
