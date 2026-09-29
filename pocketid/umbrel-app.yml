@@ -1,0 +1,32 @@
+manifestVersion: 1
+id: pocketid
+name: Pocket ID
+tagline: The most user-friendly OpenID Connect Certified™ and OAuth 2.0 provider that lets users sign in to your applications with passkeys.
+icon: https://github.com/user-attachments/assets/d906ac59-9269-4aa0-8c0d-e9619d0de04c
+category: networking
+version: "1.0.0"
+port: 1411
+description: >-
+  Pocket ID is a simple OIDC provider that allows users to authenticate with their passkeys to your services.
+
+  The goal of Pocket ID is to be a simple and easy-to-use. There are other self-hosted OIDC providers like Keycloak or ORY Hydra but they are often too complex for simple use cases.
+
+  Additionally, what makes Pocket ID special is that it only supports passkey authentication, which means you don't need a password. Some people might not like this idea at first, but I believe passkeys are the future, and once you try them, you'll love them. For example, you can now use a physical Yubikey to sign in to all your self-hosted services easily and securely.
+
+developer: Pocket ID Team
+website: http://pocket-id.org
+submitter: Danny
+submission: https://github.com/dandanthedev/dannys-umbrel-store/tree/master/pocketid
+repo: https://github.com/dandanthedev/dannys-umbrel-store/tree/master/pocketid
+support: https://github.com/dandanthedev/dannys-umbrel-store/issues
+gallery:
+  - https://pocket-id.org/img/landing/login-screenshot.webp
+  - https://pocket-id.org/img/landing/auth_screenshot.webp
+  - https://pocket-id.org/img/landing/registration_screenshot.webp
+  - https://pocket-id.org/img/landing/group_restriction_screenshot.webp
+releaseNotes: >-
+  First release :D
+dependencies: []
+path: ""
+defaultUsername: ""
+defaultPassword: ""
