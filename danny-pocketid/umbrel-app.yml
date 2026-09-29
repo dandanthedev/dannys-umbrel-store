@@ -13,6 +13,8 @@ description: >-
 
   Additionally, what makes Pocket ID special is that it only supports passkey authentication, which means you don't need a password. Some people might not like this idea at first, but I believe passkeys are the future, and once you try them, you'll love them. For example, you can now use a physical Yubikey to sign in to all your self-hosted services easily and securely.
 
+  IMPORTANT: After setup, navigate to https://umbrel.local:1411/setup to setup the initial account.
+
 developer: Pocket ID Team
 website: http://pocket-id.org
 submitter: Danny
